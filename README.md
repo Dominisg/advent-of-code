@@ -1,1 +1,1 @@
-# advent-of-code2020
+# advent-of-code
