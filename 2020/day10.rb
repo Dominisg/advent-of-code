@@ -16,6 +16,5 @@ if __FILE__ == $PROGRAM_NAME
   end
   one_groups.push(one_group+1)
   p result['1'] * result['3']
-  p one_groups
   p one_groups.select{ |a| a > 2 }.map { |g| 2**(g - 2) - (1..(g - 4)).sum }.reduce(&:*)
 end
